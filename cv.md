@@ -13,6 +13,11 @@ My name is Anna, I am 25 years old. I work as an architect. I love my profession
 + Figma
 + Adobe Photoshop, Illustrator, InDesign
 ## Code Example:
+```
+function multiply(a, b){
+ return a * b
+}
+```
 ## Education:
 + Belgorod State Technological University named after V.G. Shukhov:
  - Institute of Architecture
