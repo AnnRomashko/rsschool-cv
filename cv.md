@@ -14,9 +14,13 @@ My name is Anna, I am 25 years old. I work as an architect. I love my profession
 + Adobe Photoshop, Illustrator, InDesign
 ## Code Example:
 ## Education:
-+ Belgorod State Technological University named after V.G. Shukhov
++ Belgorod State Technological University named after V.G. Shukhov:
  - Institute of Architecture
-+ Courses:
++ **Courses:**
  - CS50 lectures
  - RS Schools Course «JavaScript/Front-end. Stage 0» 
  - Coursera: CalArts UI/UX Design Specialization 
+## Languages:
++ English Intermediate 
++ German A1
++ Russian Native
