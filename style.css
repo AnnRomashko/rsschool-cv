@@ -1,0 +1,137 @@
+:root {
+  position: relative;
+  background: #ffffff;
+}
+
+.maindiv{
+  width: 65%;
+  height: 1000px;
+  margin: auto;
+  display: flex;
+  background-color: #F1F1F1;
+}
+.left-div { 
+  /* display: block; */
+  height: 100%;
+  width: 70%;
+}
+.right-div {
+  height: 100%;
+  width: 30%;
+  color: black;
+}
+.first-row {
+  height: 40%;
+  width: 100%;
+  display: flex;
+}
+.second-row {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  padding-top: 30px;
+}
+.photo {
+  height: 100%;
+  width: 33.3%;
+}
+.contact-information {
+  box-sizing: border-box;
+  padding-left: 78px;
+  padding-top: 30px;
+  height: 100%;
+  width: 67.7%;
+}
+.about-me {
+  list-style-type: none;
+  box-sizing: border-box;
+  padding-left: 40px;
+  height: 100%;
+  width: 33.3%;
+}
+.skills {
+  box-sizing: border-box;
+  padding-left: 80px;
+  height: 100%;
+  width: 33.3%;
+}
+.languages {
+  box-sizing: border-box;
+  padding-left: 80px;
+  height: 100%;
+  width: 33.3%;
+}
+
+#courses {
+  box-sizing: border-box;
+  background-color: #D9D9D9;
+  display: block;
+  padding-top: 38px;
+  padding-left: 40px;
+}
+#education {
+  box-sizing: border-box;
+  background-color: #D9D9D9;
+  ;
+  display: block;
+  padding-left: 40px;
+}
+.photo img {
+  padding-left: 40px;
+  padding-top: 13%;
+  height: 354px;
+  width: 277px;
+}
+
+h2 {
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 24px;
+ line-height: 29px;
+ color: #7F7F7F;
+}
+ul {
+  list-style-type: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding-left: 0%;
+}
+li {
+  padding: 0px 0px 15px 0px;
+}
+h1 {
+padding-top: 2%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color: black;
+margin-bottom: 180px;
+margin-top: 0px;
+}
+#courses h2 {
+  margin-top: 0px;
+  color: black;
+}
+#education h2 {
+  /* margin-top: 0px; */
+  color: black;
+}
+p {
+  list-style-type: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding-left: 0%;
+}
+pre {
+  font-family: monospace;
+  font-size: 0.9rem;
+}
