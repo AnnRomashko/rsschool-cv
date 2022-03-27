@@ -3,27 +3,38 @@
 <head>
     <meta charset="utf-8">
     <title>Rsschool-cv-html</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    <header>
-        <h1>Anna Romashko</h1>
-    </header>
-    <main>
-        <section>
-            <h2>Contact Information:</h2>
-            <ul>
-                <li>Phone: +7 (915) 528 13 71</li>
-                <li>Email: ann.romashk12@gmail.com</li>
-                <li><a href="https://github.com/AnnRomashko">GitHub</a></li>   
-            </ul>
-        </section>
-        <section>
-            <h2>About me:</h2>
-            <p>My name is Anna, I am 25 years old. I work as an architect. I love my profession, but it cannot give me what I want.</p>
-            <p>I am talented, creative and ambitious. I like to study and learn new things.  I think that working as a front-end developer will help me realize my potential. </p>
-        </section>
-        <section>
-            <h2>Skills:</h2>
+<div class="maindiv">
+
+    <div class="left-div">
+
+        <div class="first-row">
+            <div class="photo">
+                <img src="resourses/photo1.jpg" alt="photo">
+            </div>
+            <div class="contact-information">
+                <h1>ANNA ROMASHKO</h1>
+                <h2>CONTACTS</h2>
+                <ul>
+                    <li>Phone: +7 915 528-13-71</li>
+                    <li>Email: ann.romashk12@gmail.com</li>
+                    <li><a href="https://github.com/AnnRomashko">GitHub</a></li>   
+                </ul>
+            </div>
+        </div>
+
+        <div class="second-row">
+
+            <div class="about-me">
+                <h2>ABOUT ME</h2>
+                <p>My name is Anna. I live in Moscow and work as an architect. I love my profession, but it cannot give me what I want.</p>
+                <p>I like to learn new things.  I think that working as a front-end developer will help me realize my potential. </p>
+
+            </div>
+
+            <div class="skills">
+           <h2>SKILLS</h2>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -32,30 +43,42 @@
                 <li>Figma</li>
                 <li>Adobe Photoshop, Illustrator, InDesign</li>
             </ul>
-        </section> 
-        <section>
-            <h2>Education:</h2>
-            <ul>
-                <li><p>Belgorod State Technological University named after V.G. Shukhov:</p>
-                    Institute of Architecture
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h2>Courses:</h2>
+            </div>
+
+            <div class="languages">
+                <h2>LANGUAGES</h2>
+                <ul>
+                    <li>English Intermediate</li>
+                    <li>German A1</li>
+                    <li>Russian Native</li>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-div">
+        <div id="courses" class="first-row">
+            <h2>COURSES</h2>
             <ul>
                 <li>CS50 lectures</li>
                 <li>RS Schools Course «JavaScript/Front-end. Stage 0» </li>
                 <li>Coursera: CalArts UI/UX Design Specialization </li>
             </ul>
-        </section>
-        <section>
-            <h2>Languages:</h2>
+            <h2 id="code-examle">CODE EXAMPLE</h2>
+                <pre><code>
+function multiply(a, b) {
+return a * b
+ }
+                </code> </pre>
+        </div>
+        <div id="education" class="second-row">
+            <h2>EDUCATION</h2>
             <ul>
-                <li>English Intermediate</li>
-                <li>German A1</li>
-                <li>Russian Native</li>
+                <li>Belgorod State Technological University named after V.G. Shukhov</li>
+                <li>Institute of Architecture</li>
+                <li>Specialization: Urban Planning, Bachelor's degree</li>
+                <li>Years: 2014 - 2019</li>
             </ul>
-        </section>
-    </main>
-</body>
+        </div>
+    </div>
+</div>
+
